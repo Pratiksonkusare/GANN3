@@ -1,0 +1,33 @@
+# Large pretrained weights
+weights/
+weights_nafnet/
+weights_deblurgan/
+config/
+*.pth
+*.h5
+*.pt
+
+# Cloned third-party repos (clone-able from their own GitHub, no need to duplicate)
+SwinIR/
+DANet/
+BSRGAN/
+NAFNet/
+DeblurGANv2/
+
+# Generated images (large, regenerable from scripts)
+input/
+output/
+output_swinir/
+output_bsrgan/
+output_nafnet/
+output_deblurgan/
+output_danet/
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS/editor junk
+.DS_Store
+Thumbs.db

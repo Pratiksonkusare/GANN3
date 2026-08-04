@@ -12,7 +12,7 @@
 set -e  # stop on first error
 
 # --- EDIT THESE TWO LINES to match your actual repo/release ---
-REPO="YOUR_USERNAME/YOUR_REPO_NAME"
+REPO="Pratiksonkusare/GANN3"
 TAG="v1.0"
 # ----------------------------------------------------------------
 
@@ -37,7 +37,7 @@ download() {
 echo "Downloading model weights from ${BASE_URL} ..."
 echo ""
 
-download "RealESRGAN_x4plus.pth"                                  "weights"
+
 download "realesr-general-x4v3.pth"                                "weights"
 download "NAFNet-GoPro-width64.pth"                                "weights_nafnet"
 download "NAFNet-SIDD-width64.pth"                                 "weights_nafnet"

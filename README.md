@@ -6,7 +6,7 @@ compared side by side in a Streamlit viewer.
 
 **Author:** Pratik Sonkusare
 **Context:** Enhancement research for *Smart and Intelligent Video Analysis
-System using Agentic AI* — PG-DAI, C-DAC ACTS Pune
+System using Agentic AI* — PGCP-AI, C-DAC ACTS Pune
 
 ---
 
